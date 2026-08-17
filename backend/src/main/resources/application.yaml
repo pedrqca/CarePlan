@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: careplan-backend
+
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration
